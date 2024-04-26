@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;  width: 700px; padding: 15px;
+       background-color: rgb(40, 54, 177);
+        }
+
+        input{
+            padding: 5px; margin: 5px;
+          
+        }
+        td,h3{
+            color: white;
+        }
+    </style>
+    <script src="code.js"></script>
+</head>
+<body>
+    
+    <form onsubmit="valCheck()" action="#">
+<h3>User sign-up Form</h3>
+
+<table>
+    <tr>
+        <td>Pakistani Mobile Number:</td>
+        <td><input id="mob_num" type="text" placeholder="+92-3XZ-YYYYYYY" > <span id="num_error"></span></td>
+    </tr>
+
+    <tr>
+        <td>Email:</td>
+        <td><input id="user_email" type="email" placeholder="Enter Your Email"> <span id="email_error"></span></td>
+    </tr>
+
+    <tr>
+        <td>User Name:</td>
+        <td> <input id="user_name" type="text" placeholder="Enter your Name"> <span id="name_error"></span></td>
+    </tr>
+    
+    <tr>
+        <td><input id="submit" type="submit" value="Submit"> <input id="cancel" type="button" value="Cancel"></td>
+    </tr>
+</table>
+
+
+ 
+
+
+
+    </form>
+</body>
+</html>
